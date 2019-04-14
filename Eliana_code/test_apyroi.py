@@ -12,13 +12,18 @@ def arrayify(file):
     return results
 
 def generatesupport(dataset):
-    results = list(apriori(dataset, min_confidence=0.8))
+    output = list(apriori(dataset)) #, min_confidence=0.8
+    print(output)
+
+def tinytest():
+    transactions = [ ['beer', 'nuts'], ['beer', 'cheese']]
+    results = list(apriori(transactions))
     print(results)
 
 def main():
     file = "store_data.csv"
     dataset = arrayify(file)
+    #print(dataset)
     generatesupport(dataset)
-    copiedcode(file)
 
 main()
