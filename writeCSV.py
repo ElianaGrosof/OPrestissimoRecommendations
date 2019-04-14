@@ -16,8 +16,10 @@ all_classes = []
 int y = len(all_classes)
 
 #CS only:
-for i in range(6):
-	writer.writerow({cs_classes[random.randint(0, x)]}, 
+for i in range(50):
+	writer.writerow({cs_classes[random.randint(0, x)]},{cs_classes[random.randint(0, x)]},{cs_classes[random.randint(0, x)]},{cs_classes[random.randint(0, x)]})
+
+for j in range (950):
+	writer.writerow({all_classes[random.randint(0, y)]},{all_classes[random.randint(0, y)]},{all_classes[random.randint(0, y)]},{all_classes[random.randint(0, y)]})
 
 
-		
