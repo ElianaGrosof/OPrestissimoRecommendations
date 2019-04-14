@@ -1,10 +1,7 @@
 #test_apyroi.py
-#note: if doesn't work, pip install mlxtend==0.15.0.0
 
 import csv
-import pandas as pd
-from mlxtend.preprocessing import TransactionEncoder
-from mlxtend.frequent_patterns import apriori
+from apyori import apriori, load_transactions
 
 def arrayify(file):
     results = []
@@ -14,15 +11,14 @@ def arrayify(file):
             results.append(row)
     return results
 
-def makedataframe(dataset):
-    transactencoder = TransactionEncoder()
-    transactencoder_array = transactencoder.fit(dataset).transform(dataset)
-    dataframe = pd.DataFrame(transactencoder_array, columns=transactencoder.columns_)
-    print(dataframe)
+def generatesupport(dataset):
+    results = list(apriori(dataset, min_confidence=0.8))
+    print(results)
 
 def main():
     file = "store_data.csv"
     dataset = arrayify(file)
-    makedataframe(dataset)
+    generatesupport(dataset)
+    copiedcode(file)
 
 main()
