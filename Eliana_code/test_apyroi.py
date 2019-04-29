@@ -13,7 +13,7 @@ def arrayify(file):
     return results
 
 def generatesupport(dataset):
-    output = list(apriori(dataset, min_support=0.6)) #, min_confidence=0.8
+    output = list(apriori(dataset)) #, min_confidence=0.8
     print(output)
 
 def tinytest():
@@ -24,8 +24,8 @@ def tinytest():
 def main():
     file = "store_data.csv"
     dataset = arrayify(file)
-    #print(dataset)
-    #generatesupport(dataset)
-    tinytest()
+    print(dataset)
+    generatesupport(dataset)
+    #tinytest()
 
 main()
