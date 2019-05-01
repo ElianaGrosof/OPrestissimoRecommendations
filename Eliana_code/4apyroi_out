@@ -1,0 +1,23 @@
+[RelationRecord(items=frozenset({''}), support=0.037438958220293, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({''}), confidence=0.037438958220293, lift=1.0)]), 
+
+RelationRecord(items=frozenset({'f14_11849'}), support=0.00506420690902514, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'f14_11849'}), confidence=0.00506420690902514, lift=1.0)]), 
+
+RelationRecord(items=frozenset({'f14_1518'}), support=0.004340748779164406, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'f14_1518'}), confidence=0.004340748779164406, lift=1.0)]), 
+
+RelationRecord(items=frozenset({'f14_4685'}), support=0.004069451980466631, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'f14_4685'}), confidence=0.004069451980466631, lift=1.0)]), 
+
+RelationRecord(items=frozenset({'f14_6519'}), support=0.004521613311629589, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'f14_6519'}), confidence=0.004521613311629589, lift=1.0)]), 
+
+RelationRecord(items=frozenset({'f15_11849'}), support=0.007596310363537711, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'f15_11849'}), confidence=0.007596310363537711, lift=1.0)]), 
+
+RelationRecord(items=frozenset({'f16_11849'}), support=0.004431181045396998, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'f16_11849'}), confidence=0.004431181045396998, lift=1.0)]), 
+
+RelationRecord(items=frozenset({'f17_11849'}), support=0.004159884246699223, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'f17_11849'}), confidence=0.004159884246699223, lift=1.0)]), 
+
+RelationRecord(items=frozenset({'s14_17404'}), support=0.004340748779164406, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'s14_17404'}), confidence=0.004340748779164406, lift=1.0)]), 
+
+RelationRecord(items=frozenset({'s17_18569'}), support=0.004973774642792549, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'s17_18569'}), confidence=0.004973774642792549, lift=1.0)]), 
+
+RelationRecord(items=frozenset({'s18_18547'}), support=0.004069451980466631, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'s18_18547'}), confidence=0.004069451980466631, lift=1.0)]), 
+
+RelationRecord(items=frozenset({'s18_18569'}), support=0.0057876650388858746, ordered_statistics=[OrderedStatistic(items_base=frozenset(), items_add=frozenset({'s18_18569'}), confidence=0.0057876650388858746, lift=1.0)])]

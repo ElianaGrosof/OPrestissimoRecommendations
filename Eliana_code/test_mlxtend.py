@@ -20,7 +20,7 @@ def makedf(dataset):
     return df
 
 def output(df):
-    print(apriori(df, min_support=0.003)) #0.002 gets us lots; 0.003 gets us 34; 0.004 gets us 11; 0.005 gets us 3
+    #print(apriori(df, min_support=0.003)) #0.002 gets us lots; 0.003 gets us 34; 0.004 gets us 11; 0.005 gets us 3
 
     frequent_itemsets = apriori(df, min_support=0.6, use_colnames=True)
     frequent_itemsets['length'] = frequent_itemsets['itemsets'].apply(lambda x: len(x))
@@ -65,7 +65,7 @@ def printduplicates(dupdict):
             print(key, dupdict[key])
 
 def main():
-    carts = dfmethods.makecarts("carts.csv") #generatefakecart()
+    carts = dataset #generatefakecart() #dfmethods.makecarts("carts.csv")
     dups = list_duplicates(carts)
 
     df = makedf(carts)
