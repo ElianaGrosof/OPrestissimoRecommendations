@@ -22,7 +22,7 @@ def makecarts(file):
 
     carts = []
     for c in cart_col:
-        if type(c) != type(1.0) and c != " ":
+        if type(c) != type(1.0) and c != " " and c != None:
             new_cart = c.split(" ")
             carts.append(new_cart)
 
