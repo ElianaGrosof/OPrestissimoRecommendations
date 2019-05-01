@@ -27,7 +27,8 @@ def tinytest():
 
 def main():
     min_sup = float(sys.argv[1]) #0.004 or 0.003 is a good number
-    carts = dfmethods.makecarts("carts.csv")
+    file = sys.argv[2]
+    carts = dfmethods.makecarts(file) #"carts.csv"
     #carts = arrayify("store_data.csv")
     generatesupport(carts, min_sup)
     #tinytest()
