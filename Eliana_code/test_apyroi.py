@@ -1,11 +1,15 @@
 #test_apyroi.py
 #@author: Eliana Grosof, April 2019
 
+#all of our problems solved by https://stackoverflow.com/questions/52688220/python-apyori-sorting-by-lift?fbclid=IwAR3CV0vVKyTxn4OcxFsdzNTfugCgMQf52VdYx_LkjUspWo57cf_FcfQJ7fE
+
 import dfmethods
 
 import sys
 import csv
 from apyori import apriori, load_transactions
+
+import pandas as pd
 
 #converts a csv file into an array
 def arrayify(file):
@@ -16,9 +20,38 @@ def arrayify(file):
             results.append(row)
     return results
 
-def generatesupport(dataset, min_sup):
-    output = list(apriori(dataset, min_support=min_sup)) #, min_confidence=0.8
-    print(output)
+def generatelist(dataset, min_sup):
+
+    results = list(apriori(dataset, min_support=min_sup)) #, min_confidence=0.8
+
+    df = pd.DataFrame(columns=('Items','Antecedent','Consequent','Support','Confidence','Lift'))
+
+    Support =[]
+    Confidence = []
+    Lift = []
+    Items = []
+    Antecedent = []
+    Consequent=[]
+
+    for RelationRecord in results:
+        for ordered_stat in RelationRecord.ordered_statistics:
+            Support.append(RelationRecord.support)
+            Items.append(RelationRecord.items)
+            Antecedent.append(ordered_stat.items_base)
+            Consequent.append(ordered_stat.items_add)
+            Confidence.append(ordered_stat.confidence)
+            Lift.append(ordered_stat.lift)
+
+    df['Items'] = list(map(set, Items))
+    df['Antecedent'] = list(map(set, Antecedent))
+    df['Consequent'] = list(map(set, Consequent))
+    df['Support'] = Support
+    df['Confidence'] = Confidence
+    df['Lift']= Lift
+
+    df.sort_values(by ='Lift', ascending = False, inplace = True)
+
+    print(df)
 
 def tinytest():
     transactions = [['beer', 'nuts'], ['beer', 'cheese']]
@@ -26,11 +59,11 @@ def tinytest():
     print(results)
 
 def main():
-    min_sup = float(sys.argv[1]) #0.004 or 0.003 is a good number
+    min_sup = float(sys.argv[1]) #0.004 or 0.003 is a good number #0.025 is managable on cartsof2014
     file = sys.argv[2]
     carts = dfmethods.makecarts(file) #"carts.csv"
     #carts = arrayify("store_data.csv")
-    generatesupport(carts, min_sup)
+    generatelist(carts, min_sup)
     #tinytest()
 
 main()
