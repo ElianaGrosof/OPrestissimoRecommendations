@@ -63,7 +63,7 @@ def main():
     file1 = sys.argv[2]
     file2 = sys.argv[3]
     #carts = dfmethods.makecarts(file) #"carts.csv"
-    carts = dfmethods.makecarts1(file1, file2) #"carts.csv"
+    carts = dfmethods.cartsnames(file1, file2) #"carts.csv"
     #carts = arrayify("store_data.csv")
     generatelist(carts, min_sup)
     #tinytest()
