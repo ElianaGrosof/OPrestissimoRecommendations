@@ -49,9 +49,10 @@ def generatelist(dataset, min_sup):
     df['Confidence'] = Confidence
     df['Lift']= Lift
 
-    df.sort_values(by ='Lift', ascending = False, inplace = True)
+    df = df[df.Lift != 1.0]
+    df.sort_values(by =['Support','Lift'], ascending = [True, False], inplace = True)
 
-    print(df)
+    print(df.head())
 
 def tinytest():
     transactions = [['beer', 'nuts'], ['beer', 'cheese']]
@@ -62,10 +63,7 @@ def main():
     min_sup = float(sys.argv[1]) #0.004 or 0.003 is a good number #0.025 is managable on cartsof2014
     file1 = sys.argv[2]
     file2 = sys.argv[3]
-    #carts = dfmethods.makecarts(file) #"carts.csv"
     carts = dfmethods.cartsnames(file1, file2) #"carts.csv"
-    #carts = arrayify("store_data.csv")
     generatelist(carts, min_sup)
-    #tinytest()
 
 main()
