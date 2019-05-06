@@ -51,7 +51,58 @@ def generatelist(dataset, min_sup):
 
     df.sort_values(by ='Lift', ascending = False, inplace = True)
 
-    print(df)
+    return df
+
+def replacecrns(liftdf):
+    crndict = dfmethods.makedict("courses.csv")
+
+    for crn in liftdf['Items']:
+        crn = str(crn)
+        print("crn is:",crn)
+        if crn is not None:
+            crnsplit = replacehelper(crn)
+
+        if crn is not None and len(crnsplit) == 1:
+            name = crndict[crnsplit[0]]
+            ogcrn = crnsplit[0]
+            print("crn and crndict:", ogcrn, name)
+            liftdf['Items'] = liftdf['Items'].replace(set(ogcrn), set(name), regex=True, inplace=True)
+            print(liftdf['Items'])
+
+    # for i in range (0, len(liftdf['Items'])):
+    #     val = liftdf['Items'].values[i]
+    #
+    #     print("val is: ", val)
+    #
+    #     values = replacehelper(val)
+    #
+    #     if values != 'Skip':
+    #         print(values[0])
+    #         newval = crndict[values[0]]
+    #         for v in values[1:]:
+    #             newval = newval + ", " + crndict[v]
+    #         liftdf['Items'] = liftdf['Items'].replace(val, newval, regex=True, inplace=True)
+    #         print("val is:", val, newval)
+
+    print(liftdf)
+    return liftdf
+
+def replacehelper(val):
+    values = str(val).split()
+    bettervalues = []
+    for value in values:
+        value = strip_punctuation(value)
+        if value != '':
+            bettervalues.append(value)
+    # print("values is: ", bettervalues)
+    if bettervalues != []:
+        return bettervalues
+    else:
+        return "Skip"
+
+def strip_punctuation(s):
+    punctuation = ["'", '{', '}', ',']
+    return ''.join(c for c in s if c not in punctuation)
 
 def tinytest():
     transactions = [['beer', 'nuts'], ['beer', 'cheese']]
@@ -63,7 +114,9 @@ def main():
     file = sys.argv[2]
     carts = dfmethods.makecarts(file) #"carts.csv"
     #carts = arrayify("store_data.csv")
-    generatelist(carts, min_sup)
+    liftdf = generatelist(carts, min_sup)
+    replacecrns(liftdf)
+
     #tinytest()
 
 main()
