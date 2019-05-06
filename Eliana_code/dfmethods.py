@@ -27,7 +27,24 @@ def makecarts(file):
             carts.append(new_cart)
 
     return carts
+# converts course lists to carts (lists of "short_title"s, type=str)
+def makecarts1(file1, file2):
+    dictdf = makedict(file2)
+    df = pd.read_csv(file1, dtype='str', error_bad_lines=False)
+    cart_col = df["courses"]
 
+    carts = []
+    for c in cart_col:
+        if type(c) != type(1.0) and c != " " and c != None:
+            new_cart = c.split(" ")
+            names = []
+            for cart in new_cart:
+                if cart in dictdf:
+                    new_named = dictdf[str(cart)]
+                    names.append(new_named)
+            carts.append(names)
+
+    return carts
 
 def main():
     #courses_csv = 'courses.csv'
