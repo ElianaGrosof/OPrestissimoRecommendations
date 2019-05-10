@@ -60,10 +60,6 @@ def generatelist(dataset, min_sup):
 def generatecourse(df):
     return df['Antecedent'].sample(n=1)
 
-#doesn't work yet
-def findmostrelated(df, course):
-    return df.loc[df['Antecedent'] == course]
-
 def tinytest():
     transactions = [['beer', 'nuts'], ['beer', 'cheese']]
     results = list(apriori(transactions, min_support=0.6))
@@ -76,9 +72,5 @@ def main():
     carts = dfmethods.cartsnames(file1, file2) #"carts.csv"
     sorteddf = generatelist(carts, min_sup)
     print(sorteddf)
-    #randcourse = generatecourse(sorteddf)
-    #print(randcourse)
-    #relatedcourse = findmostrelated(sorteddf, randcourse)
-    #print(str(relatedcourse))
 
 main()
