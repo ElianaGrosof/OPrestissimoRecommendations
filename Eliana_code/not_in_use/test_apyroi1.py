@@ -1,7 +1,8 @@
-#test_apyroi.py
+#test_apyroi1.py
 #@author: Eliana Grosof, April 2019
 
 #all of our problems solved by https://stackoverflow.com/questions/52688220/python-apyori-sorting-by-lift?fbclid=IwAR3CV0vVKyTxn4OcxFsdzNTfugCgMQf52VdYx_LkjUspWo57cf_FcfQJ7fE
+#Experimental code to work on if want to keep working on it
 
 import dfmethods
 

@@ -1,5 +1,6 @@
 #test_apyroi.py
 #@author: Eliana Grosof, April 2019
+#This program prints a sorted table of relationships that is determined by running the apriori algorithm. 
 
 #all of our problems solved by https://stackoverflow.com/questions/52688220/python-apyori-sorting-by-lift?fbclid=IwAR3CV0vVKyTxn4OcxFsdzNTfugCgMQf52VdYx_LkjUspWo57cf_FcfQJ7fE
 
@@ -53,7 +54,7 @@ def generatelist(dataset, min_sup):
     df = df[df.Lift != 1.0]
     df.sort_values(by =['Support','Lift'], ascending = [True, False], inplace = True)
 
-    #print(df.head())
+    print(df.head())
     return df
 
 #generates a random course from the list of courses
@@ -75,10 +76,5 @@ def main():
     file2 = sys.argv[3]
     carts = dfmethods.cartsnames(file1, file2) #"carts.csv"
     sorteddf = generatelist(carts, min_sup)
-    print(sorteddf)
-    #randcourse = generatecourse(sorteddf)
-    #print(randcourse)
-    #relatedcourse = findmostrelated(sorteddf, randcourse)
-    #print(str(relatedcourse))
 
 main()
