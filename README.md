@@ -10,7 +10,9 @@ Run test_apyroi.py, which takes three arguments: the support value, the .csv fil
 
 Ex:
 > python3 test_apyroi.py 0.01 s2014.csv courses.csv
-or 
+
+or
+
 > python3 test_apyroi.py 0.01 ./semester_csvs/s2015.csv courses.csv
 
 Output will be the top best relationships, as determined by a mix of Lift and Support. 
