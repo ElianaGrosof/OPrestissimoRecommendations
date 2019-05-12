@@ -1,7 +1,8 @@
-#test_apyroi.py
+#test_apyroi1.py
 #@author: Eliana Grosof, April 2019
 
 #all of our problems solved by https://stackoverflow.com/questions/52688220/python-apyori-sorting-by-lift?fbclid=IwAR3CV0vVKyTxn4OcxFsdzNTfugCgMQf52VdYx_LkjUspWo57cf_FcfQJ7fE
+#Experimental code to work on if want to keep working on it
 
 import dfmethods
 
@@ -12,6 +13,7 @@ from apyori import apriori, load_transactions
 import pandas as pd
 
 #converts a csv file into an array
+#not used in current implementation but potentially useful
 def arrayify(file):
     results = []
     with open(file) as csvfile:
@@ -52,7 +54,12 @@ def generatelist(dataset, min_sup):
     df = df[df.Lift != 1.0]
     df.sort_values(by =['Support','Lift'], ascending = [True, False], inplace = True)
 
-    print(df.head())
+    #print(df.head())
+    return df
+
+#generates a random course from the list of courses
+def generatecourse(df):
+    return df['Antecedent'].sample(n=1)
 
 def tinytest():
     transactions = [['beer', 'nuts'], ['beer', 'cheese']]
@@ -64,6 +71,7 @@ def main():
     file1 = sys.argv[2]
     file2 = sys.argv[3]
     carts = dfmethods.cartsnames(file1, file2) #"carts.csv"
-    generatelist(carts, min_sup)
+    sorteddf = generatelist(carts, min_sup)
+    print(sorteddf)
 
 main()
