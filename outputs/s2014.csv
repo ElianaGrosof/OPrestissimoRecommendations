@@ -1,0 +1,6 @@
+"	Items",,,Antecedent,Consequent,Support,Confidence,Lift
+"187	",{'Italian Diction'," 'Prin Pvt Voice:'}	",{'Italian Diction'},{'Prin Pvt Voice:'},0.010376135,0.727272727,37.38181818
+"188	",{'Italian Diction'," 'Prin Pvt Voice:'}	",{'Prin Pvt Voice:'},{'Italian Diction'},0.010376135,0.533333333,37.38181818
+"189	",{'Music Theory II'," 'Piano Class'}	",{'Music Theory II'},{'Piano Class'},0.010376135,0.4,22.02857143
+"190	",{'Music Theory II'," 'Piano Class'}	",{'Piano Class'},{'Music Theory II'},0.010376135,0.571428571,22.02857143
+"185	",{'Computer & Infrmation Security'," 'Theory of Computer Science'}	",{'Computer & Infrmation Security'},{'Theory of Computer Science'},0.010376135,0.4,19.275

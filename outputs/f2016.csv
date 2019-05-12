@@ -1,0 +1,6 @@
+"	Items	",Antecedent,Consequent,Support,Confidence,Lift
+"189	{'Intro to Computer Science'"," 'Intro to Electroacoustic Music'}	{'Intro to Computer Science'}	",{'Intro to Electroacoustic Music'},0.010652463,0.19047619,7.528822055
+"190	{'Intro to Computer Science'"," 'Intro to Electroacoustic Music'}	{'Intro to Electroacoustic Music'}	",{'Intro to Computer Science'},0.010652463,0.421052632,7.528822055
+"187	{'Modern Physics'"," 'Differential Equations'}	{'Differential Equations'}	",{'Modern Physics'},0.011984021,0.642857143,40.23214286
+"188	{'Modern Physics'"," 'Differential Equations'}	{'Modern Physics'}	",{'Differential Equations'},0.011984021,0.75,40.23214286
+"183	{'Aural Skills I'"," 'Music Theory I'}	{'Aural Skills I'}	",{'Music Theory I'},0.013315579,0.769230769,57.76923077

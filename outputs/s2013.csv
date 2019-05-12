@@ -1,0 +1,6 @@
+"	Items",,,Antecedent,Consequent,Support,Confidence,Lift,
+"158	",{'Contemporary Dance I-Beginning'," 'Jazz Improv'}	",{'Contemporary Dance I-Beginning'},{'Jazz Improv'},0.011450382,0.5,37.42857143,
+"159	",{'Contemporary Dance I-Beginning'," 'Jazz Improv'}	",{'Jazz Improv'},{'Contemporary Dance I-Beginning'},0.011450382,0.857142857,37.42857143,
+"152	",{'American Agricultures'," 'Climate Change'}	",{'American Agricultures'},{'Climate Change'},0.011450382,0.5,26.2,
+"153	",{'American Agricultures'," 'Climate Change'}	",{'Climate Change'},{'American Agricultures'},0.011450382,0.6,26.2,
+"170	",{'Aural Skills III', 'Intro: History & Lit of Music'," 'Music Theory III'}	{'Aural Skills III'"," 'Intro: History & Lit of Music'}	",{'Music Theory III'},0.011450382,0.857142857,24.95238095

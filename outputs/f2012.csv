@@ -1,0 +1,6 @@
+,,"	Items",Antecedent,Consequent,Support,Confidence,Lift
+"98	",{'Hebrew Bible Near East Context'," 'Gender Theo & Study of Relg'}	",{'Gender Theo & Study of Relg'},{'Hebrew Bible Near East Context'},0.025,1,40
+"99	",{'Hebrew Bible Near East Context'," 'Gender Theo & Study of Relg'}	",{'Hebrew Bible Near East Context'},{'Gender Theo & Study of Relg'},0.025,1,40
+"100	",{'Gender Theo & Study of Relg'," 'Introduction to Statistics'}	",{'Gender Theo & Study of Relg'},{'Introduction to Statistics'},0.025,1,40
+"101	",{'Gender Theo & Study of Relg'," 'Introduction to Statistics'}	",{'Introduction to Statistics'},{'Gender Theo & Study of Relg'},0.025,1,40
+"102	",{'Hebrew Bible Near East Context'," 'Introduction to Statistics'}	",{'Hebrew Bible Near East Context'},{'Introduction to Statistics'},0.025,1,40

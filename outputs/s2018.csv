@@ -1,0 +1,6 @@
+"	Items",,Antecedent,Consequent,Support,Confidence,Lift
+"173	{'The Brain: Intro to Neurosci'", 'Neuroscience Laboratory'},{'The Brain: Intro to Neurosci'},{'Neuroscience Laboratory'},0.011596789,0.393939394,27.60037879
+"172	{'The Brain: Intro to Neurosci'", 'Neuroscience Laboratory'},{'Neuroscience Laboratory'},{'The Brain: Intro to Neurosci'},0.011596789,0.8125,27.60037879
+"170	{'Intro to Cultural Anthropology'"," 'Human Origins'}	",{'Human Origins'},{'Intro to Cultural Anthropology'},0.011596789,0.40625,7.46567623
+"171	{'Intro to Cultural Anthropology'"," 'Human Origins'}	",{'Intro to Cultural Anthropology'},{'Human Origins'},0.011596789,0.213114754,7.46567623
+"166	{'Music Theory IV'"," 'Aural Skills IV'}	",{'Aural Skills IV'},{'Music Theory IV'},0.016949153,0.95,48.40681818

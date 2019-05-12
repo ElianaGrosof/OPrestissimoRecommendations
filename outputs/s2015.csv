@@ -1,0 +1,6 @@
+"	Items",,,Antecedent,Consequent,Support,Confidence,Lift
+"175	",{'Laboratory in Neuroanatomy'," 'Neuroanatomy'}	",{'Laboratory in Neuroanatomy'},{'Neuroanatomy'},0.010438413,1,73.69230769
+"176	{'Laboratory in Neuroanatomy'",," 'Neuroanatomy'}	",{'Neuroanatomy'},{'Laboratory in Neuroanatomy'},0.010438413,0.769230769,73.69230769
+"185	{'Music Theory II'",, 'Oberlin College Choir'," 'Aural Skills II'}	{'Music Theory II',  'Oberlin College Choir'}",{'Aural Skills II'},0.010438413,1,47.9
+"184	{'Music Theory II'",, 'Oberlin College Choir'," 'Aural Skills II'}	{'Oberlin College Choir'",{'Music Theory II'},0.010438413,1,39.91666667
+"165	{'Oberlin College Choir'",," 'Aural Skills II'}	",{'Aural Skills II'},{'Oberlin College Choir'},0.010438413,0.5,26.61111111

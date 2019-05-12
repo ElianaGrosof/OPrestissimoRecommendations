@@ -1,0 +1,6 @@
+"	Items	",Antecedent,Consequent,Support,Confidence,Lift
+"215	{'Senior Seminar'"," 'Neuroimmunology'}	{'Neuroimmunology'}	",{'Senior Seminar'},0.010245902,0.666666667,22.43678161
+"216	{'Senior Seminar'"," 'Neuroimmunology'}	{'Senior Seminar'}	",{'Neuroimmunology'},0.010245902,0.344827586,22.43678161
+"211	{'Music Theory IV'"," 'Aural Skills IV'}	{'Aural Skills IV'}	",{'Music Theory IV'},0.016393443,0.8,37.18095238
+"212	{'Music Theory IV'"," 'Aural Skills IV'}	{'Music Theory IV'}	",{'Aural Skills IV'},0.016393443,0.761904762,37.18095238
+"213	{'Strange World Quantum Mechanic'"," 'Einstein and Relativity'}	{'Einstein and Relativity'}	",{'Strange World Quantum Mechanic'},0.020491803,0.476190476,15.49206349

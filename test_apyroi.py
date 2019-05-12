@@ -54,7 +54,9 @@ def generatelist(dataset, min_sup):
     df = df[df.Lift != 1.0]
     df.sort_values(by =['Support','Lift'], ascending = [True, False], inplace = True)
 
+    #df.head(10) will print out 10 Relation Records
     print(df.head())
+    df.head().to_csv("./outputs/s2017.csv", sep='\t', encoding='utf-8')
     return df
 
 #generates a random course from the list of courses
