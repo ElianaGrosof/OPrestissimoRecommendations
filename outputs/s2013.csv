@@ -1,6 +1,6 @@
-"	Items",,,Antecedent,Consequent,Support,Confidence,Lift,
-"158	",{'Contemporary Dance I-Beginning'," 'Jazz Improv'}	",{'Contemporary Dance I-Beginning'},{'Jazz Improv'},0.011450382,0.5,37.42857143,
-"159	",{'Contemporary Dance I-Beginning'," 'Jazz Improv'}	",{'Jazz Improv'},{'Contemporary Dance I-Beginning'},0.011450382,0.857142857,37.42857143,
-"152	",{'American Agricultures'," 'Climate Change'}	",{'American Agricultures'},{'Climate Change'},0.011450382,0.5,26.2,
-"153	",{'American Agricultures'," 'Climate Change'}	",{'Climate Change'},{'American Agricultures'},0.011450382,0.6,26.2,
-"170	",{'Aural Skills III', 'Intro: History & Lit of Music'," 'Music Theory III'}	{'Aural Skills III'"," 'Intro: History & Lit of Music'}	",{'Music Theory III'},0.011450382,0.857142857,24.95238095
+	Items	Antecedent	Consequent	Support	Confidence	Lift
+196	{'Music Theory II', 'Piano Class', 'Aural Skills II'}	{'Piano Class', 'Music Theory II'}	{'Aural Skills II'}	0.011135857461024499	1.0	44.9
+194	{'Music Theory II', 'Piano Class', 'Aural Skills II'}	{'Music Theory II', 'Aural Skills II'}	{'Piano Class'}	0.011135857461024499	0.5555555555555555	35.634920634920626
+195	{'Music Theory II', 'Piano Class', 'Aural Skills II'}	{'Piano Class', 'Aural Skills II'}	{'Music Theory II'}	0.011135857461024499	1.0	34.53846153846154
+174	{'Piano Class', 'Aural Skills II'}	{'Aural Skills II'}	{'Piano Class'}	0.011135857461024499	0.5	32.07142857142857
+175	{'Piano Class', 'Aural Skills II'}	{'Piano Class'}	{'Aural Skills II'}	0.011135857461024499	0.7142857142857143	32.07142857142857
