@@ -56,7 +56,6 @@ def generatelist(dataset, min_sup):
 
     #df.head(10) will print out 10 Relation Records
     print(df.head())
-    df.head().to_csv("./outputs/s2017.csv", sep='\t', encoding='utf-8')
     return df
 
 #generates a random course from the list of courses
