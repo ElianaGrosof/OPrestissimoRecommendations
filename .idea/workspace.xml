@@ -2,82 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3691d37d-2325-43fe-bcaf-73ab5f46fe50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/apyori.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carts.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori-1.1.1.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori.egg-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/setup.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_apriori.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_create_next_candidates.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_dump_as_json.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_dump_as_two_item_tsv.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_filter_ordered_statistics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_gen_ordered_statistics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_gen_support_records.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_load_transactions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_parse_args.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_transaction_manager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/0.015support" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/0.02support" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/0.03support" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/025apyroi_out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/02apyroi_out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/04apyroi_out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/05apyroi_out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/15apyroi_out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/1apyroi_out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/2apyroi_out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/3apyroi_out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/4apyroi_out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/apyroi_out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/store_apyroi_out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/carts.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/dfmethods.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/logs_documenation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/mlxtend_apriori.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/mlxtend_transactionencoder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/f2012.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/f2013.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/f2014.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/f2015.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/f2016.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/f2017.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/s2013.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/s2014.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/s2015.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/s2016.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/s2017.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/s2018.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/cartsf2012.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/f2012.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/f2013.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/f2014.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/f2015.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/f2016.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/f2017.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/s2013.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/s2014.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/s2015.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/s2016.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/s2017.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/s2018.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/store_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/test_apyroi1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_in_use/test_mlxtend.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/support_values" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_apyroi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_apyroi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/writeCSV.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,23 +17,26 @@
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/apyori.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/run_apriori.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="17" column="19" lean-forward="true" selection-end-line="98" />
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/run_apyroi.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_apyroi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -131,6 +59,7 @@
         <option value="$PROJECT_DIR$/code/test_apyroi1.py" />
         <option value="$PROJECT_DIR$/code/run_apriori.py" />
         <option value="$PROJECT_DIR$/test_apyroi.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -175,6 +104,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -276,9 +206,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/apyori.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/run_apriori.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -288,8 +215,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_apyroi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="450">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/apyori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/run_apyroi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
