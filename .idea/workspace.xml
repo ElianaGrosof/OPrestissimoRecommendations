@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3691d37d-2325-43fe-bcaf-73ab5f46fe50" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/apyori.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/carts.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori-1.1.1.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori.egg-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/apyori.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/setup.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_apriori.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_create_next_candidates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_dump_as_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_dump_as_two_item_tsv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_filter_ordered_statistics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_gen_ordered_statistics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_gen_support_records.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_load_transactions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_parse_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyori-1.1.1/test/test_transaction_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/0.015support" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/0.02support" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/0.03support" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/025apyroi_out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/02apyroi_out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/04apyroi_out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/05apyroi_out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/15apyroi_out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/1apyroi_out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/2apyroi_out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/3apyroi_out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/4apyroi_out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/apyroi_out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/apyroi_logs/store_apyroi_out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/carts.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/dfmethods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/logs_documenation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/mlxtend_apriori.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/mlxtend_transactionencoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/f2012.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/f2013.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/f2014.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/f2015.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/f2016.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/f2017.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/s2013.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/s2014.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/s2015.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/s2016.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/s2017.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/outputs/s2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/cartsf2012.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/f2012.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/f2013.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/f2014.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/f2015.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/f2016.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/f2017.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/s2013.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/s2014.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/s2015.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/s2016.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/s2017.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/semester_csvs/s2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/store_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/test_apyroi1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/not_in_use/test_mlxtend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/support_values" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_apyroi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_apyroi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writeCSV.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="OPrestissimoRecommendations" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/apyori.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/run_apriori.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="17" column="19" lean-forward="true" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_apyroi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>apyroi</find>
+      <find>apriori</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/code/apyori.py" />
+        <option value="$PROJECT_DIR$/code/test_apyroi1.py" />
+        <option value="$PROJECT_DIR$/code/run_apriori.py" />
+        <option value="$PROJECT_DIR$/test_apyroi.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/OPrestissimoRecommendations.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="985" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OPrestissimoRecommendations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OPrestissimoRecommendations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OPrestissimoRecommendations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OPrestissimoRecommendations" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/not_in_use" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3691d37d-2325-43fe-bcaf-73ab5f46fe50" name="Default Changelist" comment="" />
+      <created>1594011404737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594011404737</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="705" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" sideWeight="0.5008157" side_tool="true" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="R Packages" />
+      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/writeCSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/not_in_use/apyroi_logs/02apyroi_out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/not_in_use/outputs/f2014.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/not_in_use/logs_documenation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/test_apyroi1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="93" column="24" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
+          <folding>
+            <element signature="e#267#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/apyori.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/run_apriori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="19" lean-forward="true" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_apyroi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

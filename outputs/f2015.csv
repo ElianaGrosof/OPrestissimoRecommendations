@@ -1,6 +1,0 @@
-"	Items	",Antecedent,Consequent,Support,Confidence,Lift
-"189	{'Introduction to Statistics'"," 'Intermediate Macroeconomics'}	{'Intermediate Macroeconomics'}	",{'Introduction to Statistics'},0.010582011,0.588235294,13.55810617
-"190	{'Introduction to Statistics'"," 'Intermediate Macroeconomics'}	{'Introduction to Statistics'}	",{'Intermediate Macroeconomics'},0.010582011,0.243902439,13.55810617
-"185	{'Aural Skills IV'"," 'Music Theory IV'}	{'Aural Skills IV'}	",{'Music Theory IV'},0.011640212,0.916666667,66.63461538
-"186	{'Aural Skills IV'"," 'Music Theory IV'}	{'Music Theory IV'}	",{'Aural Skills IV'},0.011640212,0.846153846,66.63461538
-"183	{'Aural Skills II'"," 'Music Theory II'}	{'Aural Skills II'}	",{'Music Theory II'},0.013756614,0.8125,59.0625

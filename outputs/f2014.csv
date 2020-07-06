@@ -1,6 +1,0 @@
-"	Items	",Antecedent,Consequent,Support,Confidence,Lift
-"170	{'Cultural Psychology'"," 'Intro to Clinical/Counseling'}	{'Cultural Psychology'}	",{'Intro to Clinical/Counseling'},0.010054845,0.234042553,10.66843972
-"171	{'Cultural Psychology'"," 'Intro to Clinical/Counseling'}	{'Intro to Clinical/Counseling'}	",{'Cultural Psychology'},0.010054845,0.458333333,10.66843972
-"176	{'Game Design'"," 'Systems Programming'}	{'Game Design'}	",{'Systems Programming'},0.010968921,0.52173913,13.59006211
-"177	{'Game Design'"," 'Systems Programming'}	{'Systems Programming'}	",{'Game Design'},0.010968921,0.285714286,13.59006211
-"178	{'Introduction to Algorithms'"," 'Systems Programming'}	{'Introduction to Algorithms'}	",{'Systems Programming'},0.011882998,0.5,13.02380952

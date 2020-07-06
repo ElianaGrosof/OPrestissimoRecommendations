@@ -1,6 +1,0 @@
-	Items	Antecedent	Consequent	Support	Confidence	Lift
-196	{'Music Theory II', 'Piano Class', 'Aural Skills II'}	{'Piano Class', 'Music Theory II'}	{'Aural Skills II'}	0.011135857461024499	1.0	44.9
-194	{'Music Theory II', 'Piano Class', 'Aural Skills II'}	{'Music Theory II', 'Aural Skills II'}	{'Piano Class'}	0.011135857461024499	0.5555555555555555	35.634920634920626
-195	{'Music Theory II', 'Piano Class', 'Aural Skills II'}	{'Piano Class', 'Aural Skills II'}	{'Music Theory II'}	0.011135857461024499	1.0	34.53846153846154
-174	{'Piano Class', 'Aural Skills II'}	{'Aural Skills II'}	{'Piano Class'}	0.011135857461024499	0.5	32.07142857142857
-175	{'Piano Class', 'Aural Skills II'}	{'Piano Class'}	{'Aural Skills II'}	0.011135857461024499	0.7142857142857143	32.07142857142857

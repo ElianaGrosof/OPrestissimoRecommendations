@@ -1,6 +1,0 @@
-"	Items",,Antecedent,Consequent,Support,Confidence,Lift
-"158	{'Principles Organic Chemistry'", 'Mol Biol  Cell Biol & Biochem'} {'Principles Organic Chemistry'},, 'Mol Biol  Cell Biol & Biochem'},"0.011111111111111112	0.5384615384615385	28.26923076923077",,
-"157	{'Principles Organic Chemistry'", 'Mol Biol  Cell Biol & Biochem'} ,,{'Principles Organic Chemistry'},0.011111111,0.583333333,28.26923077
-"156	{'Intro: History & Lit of Music'"," 'Music Theory III'}	{'Music Theory III'}	",,{'Intro: History & Lit of Music'},0.011111111,0.333333333,12.35294118
-"155	{'Intro: History & Lit of Music'"," 'Music Theory III'}	{'Intro: History & Lit of Music'}	",,{'Music Theory III'},0.011111111,0.411764706,12.35294118
-"153	""{""""Earth's Environments"""""," 'Eco Perspect Forager Lifeways'}""	""{""""Earth's Environments""""}""	",,{'Eco Perspect Forager Lifeways'},0.012698413,0.285714286,15
