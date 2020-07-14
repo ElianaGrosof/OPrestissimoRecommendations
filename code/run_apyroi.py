@@ -5,6 +5,9 @@ using the apyroi implementation of the apriori algorithm.
 
 @author: Eliana Grosof, April 2019, edited July 2020
 """
+#Meta information
+__author__ = "Eliana Grosof"
+__credits__ = ["Olivia Vasquez", "Leah Yassky"]
 
 import csv
 from apyori import apriori, load_transactions
@@ -83,16 +86,13 @@ def tinytest():
     print(results)
 
 def main():
-    #start = time.time()
-    min_sup = 0.0006#0.004 #float(sys.argv[1]) #0.004 or 0.003 is a good number #0.025 is managable on cartsof2014
-    min_conf = 0.1 #0.5
+    min_sup = 0.0006
+    min_conf = 0.1
     carts = arrayify('../data/converted_carts.csv')#carts_list
     sorteddf = run_apriori(carts, min_sup, min_conf)
     pd.set_option('display.max_columns', None)
     print(sorteddf)
     #write to .csv file
     sorteddf.to_csv('../data/rules_conf=0.1.csv')
-    #end = time.time()
-    #print("time is: ", start-end)
 
 main()
